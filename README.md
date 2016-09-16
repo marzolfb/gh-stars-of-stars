@@ -9,6 +9,8 @@ Utilizes the shiny brand new GraphQL Github API (need to opt-in to early access
 program currently)
 
 The setup process is a bit rough at the moment:
+* you need to install [jq](https://stedolan.github.io/jq/download/)
+* you need to be running on Mac/Linux where you have standard things like curl, awk, column, etc..
 * hand-edit ./runit.sh and plug in your Github personal access token for the
   GITHUB_TOKEN environment variable
 
